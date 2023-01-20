@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>month</title>
+</head>
+<body>
+    <script>
+	var month=new Date(prompt("enter the year,month,day"));
+	var mon=month.getMonth();
+	if(mon==1){
+	    console.log("this month is 28 or 29 days");
+	}
+	else if(mon==3||mon==5||mon==7||mon==10||mon==11){
+	    console.log("this month is 30days");
+		}
+		else{
+		console.log("this month is 31 days");
+	}
+	</script>
+</body>
+</html>
